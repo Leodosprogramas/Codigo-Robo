@@ -95,7 +95,7 @@ void loop() {
       alterado = true;
       delay(4);
     }
-  }
+ }
 
   if (digitalRead(botaoEnter) == LOW) {
     for (int i = 0; i < numServos; i++) {
